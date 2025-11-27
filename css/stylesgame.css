@@ -1,0 +1,42 @@
+/* Стили для игры */
+.game-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.game-container {
+    margin-bottom: 30px;
+}
+
+.scene-text {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #4CAF50;
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.choice-btn {
+    padding: 15px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.choice-btn:hover {
+    background: #45a049;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа 4</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Лабораторная работа 4</h1>
+        
+        <div class="task">
+            <h3>Задание 1: Обработка набора чисел</h3>
+            <p>Дано целое число N (> 0) и набор из N целых чисел</p>
+            <input type="number" id="NValue1" placeholder="Введите N (целое > 0)">
+            <input type="text" id="numbersInput" placeholder="Введите N чисел через запятую">
+            <button onclick="processNumbers()">Обработать</button>
+            <p id="numbersResult"></p>
+        </div>
+
+        <div class="task">
+            <h3>Задание 2: Сумма знакопеременного ряда</h3>
+            <p>Вычисление: 1 − A + A² − A³ + ... + (−1)<sup>N</sup>A<sup>N</sup></p>
+            <input type="number" id="AValue" placeholder="Вещественное число A" step="any">
+            <input type="number" id="NValue2" placeholder="Целое число N > 0">
+            <button onclick="calculateSum()">Вычислить сумму</button>
+            <p id="sumResult"></p>
+        </div>
+
+        <script src="/js/4lab.js"></script>
+    </div>
+</body>
+</html>

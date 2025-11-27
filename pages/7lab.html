@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/7lab.css">
+    <title>Лабораторная работа 7 - Работа с API</title>
+</head>
+<body>
+    <header>
+        <h2>Лабораторная работа 7</h2>
+        <nav>
+            <a href="#products">Продукты</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="task">
+            <h1>Поиск продуктов</h1>
+            <input type="text" id="searchInput" placeholder="Введите слово для поиска">
+            <button onclick="searchProducts()">Поиск</button>
+            <div id="searchContainer"></div>
+        </div>
+
+        <div class="task" id="products">
+            <h1>Все продукты</h1>
+            <div id="container"></div>
+        </div>
+    </main>
+    
+    <script src="/js/7lab.js"></script>
+</body>
+</html>
